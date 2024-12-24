@@ -2,31 +2,30 @@
 class Mktools < Formula
   desc "CLI tool for generating LLM context and development tasks"
   homepage "https://github.com/amenophis1er/mktools"
-  version "v0.1.0" # Automatically updated by release workflow
+  version "v1.0.0"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/amenophis1er/mktools/releases/download/#{version}/mktools-darwin-arm64"
-      sha256 "..." # darwin-arm64
+      url "https://github.com/amenophis1er/mktools/releases/download/v1.0.0/mktools-darwin-arm64"
+      sha256 "..."
     else
-      url "https://github.com/amenophis1er/mktools/releases/download/#{version}/mktools-darwin-amd64"
-      sha256 "..." # darwin-amd64
+      url "https://github.com/amenophis1er/mktools/releases/download/v1.0.0/mktools-darwin-amd64"
+      sha256 "..."
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/amenophis1er/mktools/releases/download/#{version}/mktools-linux-arm64"
-      sha256 "..." # linux-arm64
+      url "https://github.com/amenophis1er/mktools/releases/download/v1.0.0/mktools-linux-arm64"
+      sha256 "..."
     else
-      url "https://github.com/amenophis1er/mktools/releases/download/#{version}/mktools-linux-amd64"
-      sha256 "..." # linux-amd64
+      url "https://github.com/amenophis1er/mktools/releases/download/v1.0.0/mktools-linux-amd64"
+      sha256 "..."
     end
   end
 
   def install
-    binary_name = "mktools"
-    bin.install Dir["mktools-*"][0] => binary_name
+    bin.install Dir["*"][0] => "mktools"
   end
 
   test do
