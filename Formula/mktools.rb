@@ -1,25 +1,25 @@
 class Mktools < Formula
   desc "CLI tool for generating LLM context and development tasks"
   homepage "https://github.com/amenophis1er/mktools"
-  version "v1.0.0"
+  version "v1.0.1"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/amenophis1er/mktools/releases/download/v1.0.0/mktools-darwin-arm64"
-      sha256 "714a5ecb7a7da41643860f96424e020c26133454d8373754bbefcda3db0888e4"
+      url "https://github.com/amenophis1er/mktools/releases/download/v1.0.1/mktools-darwin-arm64"
+      sha256 "8d99ffff1206fb1bb46905012c03c5c8c8b382166759310a45bc3e8e7d3e5a46"
     else
-      url "https://github.com/amenophis1er/mktools/releases/download/v1.0.0/mktools-darwin-amd64"
-      sha256 "243721c541140cfc882e84bbd94fc90d8b84716b87b6c4035d2dee9f2c46cc7c"
+      url "https://github.com/amenophis1er/mktools/releases/download/v1.0.1/mktools-darwin-amd64"
+      sha256 "654e1f80070e0d22df4785971758bb79b8173fa683bb1db409ad34ba68c36d7b"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/amenophis1er/mktools/releases/download/v1.0.0/mktools-linux-arm64"
-      sha256 "cb505e4809058c4bfdb65eedec3bcdc2dde4568fad4963fb5810019dff5c2dc6"
+      url "https://github.com/amenophis1er/mktools/releases/download/v1.0.1/mktools-linux-arm64"
+      sha256 "01a80c53a6b516da5d51392c06abf851d27b6cf744fe355b43726b125fdadb19"
     else
-      url "https://github.com/amenophis1er/mktools/releases/download/v1.0.0/mktools-linux-amd64"
-      sha256 "56fea6e40fb025686616d3337ff1e0a2132760bf410cf6d3d8a5a75bd769715d"
+      url "https://github.com/amenophis1er/mktools/releases/download/v1.0.1/mktools-linux-amd64"
+      sha256 "b6036c7821dce79ad1e2dc3e1af7759390a9ec1b80653fdd69e16baa91758bf6"
     end
   end
 
