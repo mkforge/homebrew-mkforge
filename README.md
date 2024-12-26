@@ -1,24 +1,23 @@
+# Homebrew MKForge
 
-# Homebrew Mktools
-
-[Homebrew](https://brew.sh) formula for [mktools](https://github.com/amenophis1er/mktools), a Swiss Army knife for development tasks focused on generating context for Large Language Models (LLMs) and automating common development workflows.
+[Homebrew](https://brew.sh) formula for [MKForge](https://mkforge.github.io), a Swiss Army knife for development tasks focused on generating context for Large Language Models (LLMs) and automating common development workflows.
 
 ## Installation
 
 ```bash
-# Install mktools
-brew tap amenophis1er/homebrew-mktools
-brew install mktools
+# Install MKForge
+brew tap mkforge/homebrew-mkforge
+brew install mkforge
 
 # Verify installation
-mktools version
+mkforge version
 ```
 
 ## Updating
 
 ```bash
 # Update to the latest version
-brew upgrade mktools
+brew upgrade mkforge
 ```
 
 ## Troubleshooting
@@ -27,19 +26,19 @@ If you encounter any issues, you can try reinstalling:
 
 ```bash
 # Remove the tap
-brew untap amenophis1er/homebrew-mktools
+brew untap mkforge/homebrew-mkforge
 
 # Clear brew cache
 brew cleanup
 
 # Reinstall
-brew tap amenophis1er/homebrew-mktools
-brew install mktools
+brew tap mkforge/homebrew-mkforge
+brew install mkforge
 ```
 
 ## Development
 
-This formula is automatically maintained by GitHub Actions in the main [mktools repository](https://github.com/amenophis1er/mktools). When a new release is created:
+This formula is automatically maintained by GitHub Actions in the main [MKForge repository](https://mkforge.github.io). When a new release is created:
 
 1. Binaries are built for multiple platforms
 2. SHA256 checksums are generated
@@ -55,9 +54,8 @@ This formula is automatically maintained by GitHub Actions in the main [mktools 
 
 ## Contributing
 
-If you encounter any issues with the formula itself, please open an issue in this repository. For mktools-related issues, please use the [main repository's issue tracker](https://github.com/amenophis1er/mktools/issues).
+If you encounter any issues with the formula itself, please open an issue in this repository. For MKForge-related issues, please use our [support page](https://mkforge.github.io/support).
 
 ## License
 
-This formula is released under the same license as [mktools](https://github.com/amenophis1er/mktools).
-ization
+This formula is released under the same license as [MKForge](https://mkforge.github.io).
