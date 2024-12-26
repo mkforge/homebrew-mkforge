@@ -6,20 +6,20 @@ class Mktools < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/amenophis1er/mktools/releases/download/v1.0.0/mktools-darwin-arm64"
-      sha256 "633d3aede4e7ca1a1fcdfc8a96fca1f67617930e69d0636326cade4cb73f3e39"
+      sha256 "714a5ecb7a7da41643860f96424e020c26133454d8373754bbefcda3db0888e4"
     else
       url "https://github.com/amenophis1er/mktools/releases/download/v1.0.0/mktools-darwin-amd64"
-      sha256 "0e5b82712b7527a9ad020c60f9c3eeb2ea8f42ca659b9da1bf8e29083523cee1"
+      sha256 "243721c541140cfc882e84bbd94fc90d8b84716b87b6c4035d2dee9f2c46cc7c"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
       url "https://github.com/amenophis1er/mktools/releases/download/v1.0.0/mktools-linux-arm64"
-      sha256 "ddea816a8434ae0300e936a6c85c334d4b6bf89b9144b1823d24e8c429617a6f"
+      sha256 "cb505e4809058c4bfdb65eedec3bcdc2dde4568fad4963fb5810019dff5c2dc6"
     else
       url "https://github.com/amenophis1er/mktools/releases/download/v1.0.0/mktools-linux-amd64"
-      sha256 "9da73df150afb42f0660b37de2d3ec84abe4e0129b38636c9ab5be96eff7d73b"
+      sha256 "56fea6e40fb025686616d3337ff1e0a2132760bf410cf6d3d8a5a75bd769715d"
     end
   end
 
