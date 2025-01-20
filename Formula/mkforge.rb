@@ -1,25 +1,25 @@
 class Mkforge < Formula
   desc "CLI tool for generating LLM context and development tasks"
   homepage "https://mkforge.github.io"
-  version "0.1.2"  # Use version without 'v' prefix
+  version "1.0.3"  # Use version without 'v' prefix
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://mkforge.github.io/releases/v0.1.2/mkforge-darwin-arm64"
-      sha256 "ab2f4fa70284adb74a44f4f9e8d2a4f055856a34c6fbe3eed77dbbacd3a24e1c"
+      url "https://mkforge.github.io/releases/v1.0.3/mkforge-darwin-arm64"
+      sha256 "ba396ec6b0e16ea457c8dd21b3126284a5c80b6908830e1f1fe89d1d691c43dc"
     else
-      url "https://mkforge.github.io/releases/v0.1.2/mkforge-darwin-amd64"
-      sha256 "d9f7e3fabfde19022f85389bd83865acbc7bacacc6f196325a7c7feb7081ff40"
+      url "https://mkforge.github.io/releases/v1.0.3/mkforge-darwin-amd64"
+      sha256 "062e9048a9217cd9bfc0a3fce9604c91c3dd9fa3a9296afe90dadb0a68b507cc"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://mkforge.github.io/releases/v0.1.2/mkforge-linux-arm64"
-      sha256 "4c82f34a533c56a07f087813d63bda649f0d2b86428e8fddb81ede9e6f527f00"
+      url "https://mkforge.github.io/releases/v1.0.3/mkforge-linux-arm64"
+      sha256 "bb8f954bdf9215b1f2294d54b25386f8bedf68c101a7ce7677734e3fb4ba7cdf"
     else
-      url "https://mkforge.github.io/releases/v0.1.2/mkforge-linux-amd64"
-      sha256 "1a4d23a389024f54eeedc907f4fccfe6cd5df3a49a1c10c2e512433f4e0b57f8"
+      url "https://mkforge.github.io/releases/v1.0.3/mkforge-linux-amd64"
+      sha256 "5c49520218db3c074bf4357a103047df38e09c86d3bd2c292d52b85c4c1161b8"
     end
   end
 
